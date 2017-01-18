@@ -19,15 +19,16 @@ header {
   display: flex;
   flex-direction: column;
   flex: 0 0 300px;
-  color: #fff;
+  color: rgba(255, 255, 255, .9);
   background-color: rgba(61, 100, 158, .7);
+  border-radius: 5px;
 }
 
 h1 {
   font-size: 5.5em;
   align-self: center;
   font-family: 'Gloria Hallelujah', cursive;
-  text-shadow: 1px 1px 2px rgba(255, 223, 0, 0.8);
+  text-shadow: 1px 1px 2px rgba(255, 223, 0, 0.9);
 }
 
 main {
@@ -43,7 +44,8 @@ main {
   width: 400px;
   height: 400px;
   margin: 20px 0 20px 2px;
-
+  border-radius: 5px;
+  border: 3px groove #337E85;
 }
 
 .text-container {
@@ -59,7 +61,6 @@ main {
   font-family: 'Source Sans Pro', sans-serif;
 }
 h3 {
-
   font-size: 2em;
   align-self: center;
   font-family: 'Gloria Hallelujah', cursive;
@@ -78,7 +79,9 @@ footer {
   flex: 0 0 30px;
   padding: 10px;
   color: #fff;
-  background-color: rgba(61, 100, 158, .9);
+  background-color: rgba(61, 100, 158, .7);
+  border: 1px ridge;
+  border-radius: 5px;
 }
 .content {
   border: 2px solid yellow;
